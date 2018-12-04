@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -130,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
             builder.show();
+//            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+//            imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
             return true;
         }
 
