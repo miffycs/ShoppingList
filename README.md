@@ -2,10 +2,4 @@
 :clipboard: Simple shopping list android app.
 
 ### Demo:
-<!-- blank line -->
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="Demo.png">
-    <source src="Demo.webm" type="video/webm">
-  </video>
-</figure>
-<!-- blank line -->
+![Demo](https://github.com/miffycs/ShoppingList/tree/master/demo/v2.gif)
