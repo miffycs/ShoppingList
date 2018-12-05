@@ -1,7 +1,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context="com.miffycs.itemlist.MainActivity">
+
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_circle_outline"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom" />
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -18,8 +24,4 @@
         android:title="@string/action_clear"
         app:showAsAction="never" />
 
-    <item android:id="@+id/action_add"
-        android:icon="@drawable/ic_add_circle_outline_white_48dp"
-        android:title="@string/action_add"
-        app:showAsAction="ifRoom" />
 </menu>

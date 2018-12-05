@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.miffycs.tester", appContext.getPackageName());
+        assertEquals("com.miffycs.shoppinglist", appContext.getPackageName());
     }
 }
